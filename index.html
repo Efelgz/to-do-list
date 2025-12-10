@@ -1,11 +1,35 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="tr">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>To Do List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 </head>
+
 <body>
-    
+
+<div class="container">
+
+    <div class="title">to do list</div>
+
+    <div id="todo-list">
+        <div class="task-row">
+            <div class="task-box"></div>
+            <textarea class="task-input" placeholder="Görev yaz..."></textarea>
+            <button class="delete-btn">
+                <i class="fa fa-trash"></i>
+            </button>
+        </div>
+    </div>
+    <div class="add-button-container">
+        <button class="Add-btn">
+            <i class="fa fa-plus-circle"></i>
+        </button>
+    </div>
+
+</div>
+
+<script src="app.js"></script>
 </body>
 </html>
